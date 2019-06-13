@@ -1,5 +1,6 @@
 
 $(document).ready(function () {
+    // function to play and pause music
     var audioElement = document.createElement("audio");
         audioElement.setAttribute("src", "assets/Change.mp3");
 
@@ -9,7 +10,7 @@ $(document).ready(function () {
       $(".pause-button").on("click", function() {
         audioElement.pause();
       });
-
+// question and anwswer array
         var options = [
         {
             question: "Who was the first colonist slain in the Boston Massacre?",
@@ -81,7 +82,7 @@ $(document).ready(function () {
             question: "Which is not a flavor(color) of Kool-aide?",
             choice: ['Blue', 'Orange', 'Red', 'Lemon'],
             answer: 3,
-            photo: "assets/images/kool.gif"
+            photo: "assets/images/Kool.gif"
         },
         {
             question: "If some says you are ‘Trippin' this most closely means you are?",
@@ -131,7 +132,7 @@ $(document).ready(function () {
             answer: 2,
             photo: "assets/images/Side.gif"
         }];
-        
+// Game Functions 
 var correctCount = 0;
 var wrongCount = 0;
 var unanswerCount = 0;
@@ -226,7 +227,7 @@ $(".answerchoice").on("click", function () {
 })
 }
 
-
+// function to display pics and gifs
 function hidepicture () {
 	$("#answerblock").append("<img src=" + pick.photo + ">");
 	newArray.push(pick);
