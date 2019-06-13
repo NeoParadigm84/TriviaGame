@@ -6,7 +6,7 @@
   text-align: center;
   margin: 10px auto;
   font-size: 20px;
-  background-color:green;
+  background-color:#403fd3;
 
 }
 
@@ -47,7 +47,7 @@ p {
   margin: 10px;
   font-weight: bold;
   color: red;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 h2, h4 {
@@ -57,8 +57,8 @@ h2, h4 {
 
 .wrapper {
   margin: 10px auto;
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 2px solid #403fd3;
+  background-color: rgba(119, 117, 117, 0.795);
+  border: 15px solid #403fd3;
   height: 500px;
   width: 60%;
   text-align: center;
