@@ -57,7 +57,7 @@ $(document).ready(function () {
         {
             question: "NBA superstar Shaquille O'Neal began his career with which team?",
             choice: ['Los Angeles Lakers', 'Orlando Magic', 'Chicago Bulls', 'Boston Celtics'],
-            answer: 0,
+            answer: 1,
             photo: "assets/images/Shaq.gif"
         },
         {
