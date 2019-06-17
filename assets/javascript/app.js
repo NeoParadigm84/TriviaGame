@@ -92,7 +92,7 @@ $(document).ready(function () {
         },
         {
             question: "According to rapper Drake all but one of the following are acceptable?",
-            choice: ['Cheering for the Taranto Raptors', 'Late nights and early mornings', 'Free smoke', 'New friends'],
+            choice: ['Cheering for the Toronto Raptors', 'Late nights and early mornings', 'Free smoke', 'New friends'],
             answer: 3,
             photo: "assets/images/Drake.gif"
         },
